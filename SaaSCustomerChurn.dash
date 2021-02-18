@@ -1,0 +1,4097 @@
+{
+  "title": "SaaS Customer Churn",
+  "desc": "",
+  "source": "5a69cd6bee0b751ec8be9d53",
+  "type": "dashboard",
+  "style": {
+    "name": "vivid",
+    "palette": {
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ],
+      "name": "Vivid",
+      "sortOrder": 10,
+      "isSystem": true,
+      "systemDefault": true
+    }
+  },
+  "layout": {
+    "instanceid": "3450D-3731-32",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 35.988819007686935,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "5c5b30cd0dca88459048501c",
+                    "height": "160px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 439,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "height": "36px",
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "57df93248b119dfc69000006"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 439,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "332px",
+                    "defaultWidth": 512,
+                    "widgetid": "57df93248b119dfc69000009"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 439,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "160px",
+                    "defaultWidth": 512,
+                    "widgetid": "57df93248b119dfc69000007"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 439,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "344px",
+                    "defaultWidth": 512,
+                    "widgetid": "57df93248b119dfc69000005"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 439,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 439,
+        "index": 0
+      },
+      {
+        "width": 64.01118099231306,
+        "pxlWidth": 780,
+        "index": 1,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "5c5b30d30dca88459048501e",
+                    "height": "160px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 390,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "5c5b30d90dca884590485020",
+                    "height": "160px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 390,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "height": "36px",
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "57df93248b119dfc69000002"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 780,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "57df93248b119dfc6900000a",
+                    "height": "332px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 780,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "5c86d82f0dca884590485106",
+                    "height": "160px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 780,
+                "index": 0
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "5c86dd340dca88459048513e",
+                    "height": "344px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 780,
+                "index": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "container": {
+      "sizzle-1552487984409": {
+        "parentNode": [
+          "2667 263",
+          83
+        ]
+      }
+    }
+  },
+  "original": null,
+  "datasource": {
+    "title": "SaaS Customer Churn",
+    "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+    "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+    "address": "ct-query-01.prod.sisense.com",
+    "database": "aSaaSIAAaCustomerIAAaChurn"
+  },
+  "editing": false,
+  "filters": [
+    {
+      "jaql": {
+        "table": "dim_date",
+        "column": "date",
+        "dim": "[dim_date.date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Years in date",
+        "level": "years",
+        "collapsed": true,
+        "datasource": {
+          "title": "SaaS Customer Churn",
+          "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+          "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+          "address": "ct-query-01.prod.sisense.com",
+          "database": "aSaaSIAAaCustomerIAAaChurn"
+        },
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "userMultiSelect": true,
+          "members": []
+        }
+      },
+      "instanceid": "D0F26-F69D-E9",
+      "isCascading": false,
+      "disabled": true
+    },
+    {
+      "jaql": {
+        "table": "dim_date",
+        "column": "date",
+        "dim": "[dim_date.date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Months in date",
+        "level": "months",
+        "collapsed": true,
+        "datasource": {
+          "title": "SaaS Customer Churn",
+          "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+          "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+          "address": "ct-query-01.prod.sisense.com",
+          "database": "aSaaSIAAaCustomerIAAaChurn"
+        },
+        "filter": {
+          "last": {
+            "count": 1000,
+            "offset": 0
+          },
+          "custom": true
+        }
+      },
+      "instanceid": "BB2BD-B51C-F2",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "isPublic": null,
+  "oid": "57df93248b119dfc69000001",
+  "parentFolder": "5a69f2cbee0b751ec8bea308",
+  "subscription": {
+    "isDataChange": true,
+    "type": "onUpdate",
+    "schedule": "* * * * * *",
+    "timezone": 0,
+    "tzName": "UTC",
+    "context": {
+      "dashboardid": "57df93248b119dfc69000001"
+    },
+    "active": false,
+    "executionPerDay": 1,
+    "reportType": {
+      "inline": true
+    }
+  },
+  "opened": true,
+  "filterToDatasourceMapping": {},
+  "script": "/*\nWelcome to your Dashboard's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at http://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\n",
+  "widgets": [
+    {
+      "title": "This Year State Acquisition Heatmap",
+      "type": "map/area",
+      "subtype": "areamap/usa",
+      "oid": "57df93248b119dfc69000005",
+      "desc": null,
+      "source": "5cca0710e1805f1fa07ec711",
+      "datasource": {
+        "title": "SaaS Customer Churn",
+        "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+        "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+        "address": "ct-query-01.prod.sisense.com",
+        "database": "aSaaSIAAaCustomerIAAaChurn"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [
+            "[fact_calls.call_date (Calendar)]"
+          ],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "geo",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dim_customer",
+                  "column": "state",
+                  "dim": "[dim_customer.state]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "state"
+                }
+              }
+            ]
+          },
+          {
+            "name": "color",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([B7096-F42]),[2E629-8BD],[2D54C-BBD])",
+                  "context": {
+                    "[2E629-8BD]": {
+                      "table": "dim_customer",
+                      "column": "acq_date",
+                      "dim": "[dim_customer.acq_date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in acq_date",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "2016-01-01T00:00:00"
+                        ]
+                      },
+                      "collapsed": false,
+                      "datasource": {
+                        "title": "SaaS Customer Churn",
+                        "fullname": "LocalHost/SaaS Customer Churn",
+                        "id": "aLOCALHOST_aSAASIAAaCUSTOMERIAAaCHURN",
+                        "address": "LocalHost",
+                        "database": "aSaaSIAAaCustomerIAAaChurn"
+                      }
+                    },
+                    "[B7096-F42]": {
+                      "table": "dim_customer",
+                      "column": "customer_id",
+                      "dim": "[dim_customer.customer_id]",
+                      "datatype": "numeric",
+                      "merged": true,
+                      "title": "Customer Id"
+                    },
+                    "[2D54C-BBD]": {
+                      "table": "dim_customer",
+                      "column": "churn",
+                      "dim": "[dim_customer.churn]",
+                      "datatype": "numeric",
+                      "title": "churn",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "0"
+                        ]
+                      },
+                      "collapsed": false,
+                      "datasource": {
+                        "title": "SaaS Customer Churn",
+                        "fullname": "LocalHost/SaaS Customer Churn",
+                        "id": "aLOCALHOST_aSAASIAAaCUSTOMERIAAaCHURN",
+                        "address": "LocalHost",
+                        "database": "aSaaSIAAaCustomerIAAaChurn"
+                      }
+                    }
+                  },
+                  "title": "Churn"
+                },
+                "format": {
+                  "mask": {
+                    "decimals": 1,
+                    "percent": true
+                  },
+                  "color": {
+                    "steps": 6,
+                    "min": "#91ff77",
+                    "max": "#00652C",
+                    "minvalue": null,
+                    "midvalue": null,
+                    "maxvalue": null,
+                    "minValueValid": true,
+                    "midValueValid": true,
+                    "maxValueValid": true,
+                    "type": "range",
+                    "rangeMode": "both"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "dashboardid": "57df93248b119dfc69000001",
+      "drawing": true,
+      "forcedRedraw": false,
+      "iconSmall": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "instanceid": "B44E0-F83E-19",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "disallowSelector": false,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false,
+        "selectorLocked": false
+      },
+      "style": {
+        "title": {
+          "titleMenuEnabled": true,
+          "fontWeightEnabled": true,
+          "titleFontWeight": "bold",
+          "fontTitleBackgroundEnabled": true,
+          "titleBackground": "#00652C",
+          "fontColorEnabled": true,
+          "titleFontColor": "#FFFFFF"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "state",
+              "title": "state",
+              "singular": "state",
+              "plural": "state"
+            }
+          ]
+        }
+      },
+      "iconSmallWizard": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "queryStartTime": "2019-04-18T13:00:53",
+      "widgetTimingLoged": true,
+      "continuousDates": false,
+      "nullAsZero": false,
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "Revenue",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "57df93248b119dfc69000002",
+      "desc": null,
+      "source": "5cca0710e1805f1fa07ec710",
+      "datasource": {
+        "title": "SaaS Customer Churn",
+        "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+        "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+        "address": "ct-query-01.prod.sisense.com",
+        "database": "aSaaSIAAaCustomerIAAaChurn"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "table": "fact_calls",
+                  "column": "charge",
+                  "dim": "[fact_calls.charge]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "YTD Revenue"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  },
+                  "color": {
+                    "type": "condition",
+                    "conditions": [
+                      {
+                        "color": "#B62B07",
+                        "operator": "<",
+                        "expression": {
+                          "jaql": {
+                            "type": "measure",
+                            "formula": "PastYear([00719-8CA])",
+                            "context": {
+                              "[00719-8CA]": {
+                                "table": "fact_calls",
+                                "column": "charge",
+                                "dim": "[fact_calls.charge]",
+                                "datatype": "numeric",
+                                "agg": "sum",
+                                "title": "TY Revenue"
+                              }
+                            },
+                            "title": "PastYear([TY Revenue])"
+                          }
+                        },
+                        "expressionValue": 5066763
+                      },
+                      {
+                        "color": "#0DA54F",
+                        "operator": "≥",
+                        "expression": {
+                          "jaql": {
+                            "type": "measure",
+                            "formula": "PastYear([46E94-F6E])",
+                            "context": {
+                              "[46E94-F6E]": {
+                                "table": "fact_calls",
+                                "column": "charge",
+                                "dim": "[fact_calls.charge]",
+                                "datatype": "numeric",
+                                "agg": "sum",
+                                "title": "TY Revenue"
+                              }
+                            },
+                            "title": "PastYear([TY Revenue])"
+                          }
+                        },
+                        "expressionValue": 5066763
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "PastYear([A60CD-751])",
+                  "context": {
+                    "[A60CD-751]": {
+                      "table": "fact_calls",
+                      "column": "charge",
+                      "dim": "[fact_calls.charge]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "TY Revenue"
+                    }
+                  },
+                  "title": "PYTD Revenue"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "currency": {
+                      "symbol": "$",
+                      "position": "pre"
+                    }
+                  }
+                },
+                "originalJaql": {
+                  "table": "fact_calls",
+                  "column": "charge",
+                  "dim": "[fact_calls.charge]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "TY Revenue"
+                },
+                "quickFunction": "PastYear"
+              }
+            ]
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "dashboardid": "57df93248b119dfc69000001",
+      "drawing": true,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false
+      },
+      "forcedRedraw": false,
+      "iconSmall": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "instanceid": "F4107-B637-43",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false,
+        "noTitle": false
+      },
+      "size": "big",
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": false,
+            "enabled": true
+          }
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/pictogram": {},
+        "title": {
+          "titleMenuEnabled": true,
+          "titleAlign": "center",
+          "fontWeightEnabled": true,
+          "titleFontWeight": "bold",
+          "fontColorEnabled": true,
+          "titleFontColor": "#FFFFFF",
+          "fontTitleBackgroundEnabled": true,
+          "titleBackground": "#000000"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "iconSmallWizard": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "queryStartTime": "2019-03-07T12:47:43",
+      "widgetTimingLoged": false,
+      "continuousDates": false,
+      "nullAsZero": false,
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "Demographics: New Accounts",
+      "type": "pivot",
+      "subtype": "pivot",
+      "oid": "57df93248b119dfc69000007",
+      "desc": null,
+      "source": "5cca0710e1805f1fa07ec712",
+      "datasource": {
+        "title": "SaaS Customer Churn",
+        "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+        "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+        "address": "ct-query-01.prod.sisense.com",
+        "database": "aSaaSIAAaCustomerIAAaChurn"
+      },
+      "selection": null,
+      "metadata": {
+        "drillHistory": [
+          {
+            "jaql": {
+              "table": "dim_customer",
+              "column": "country",
+              "dim": "[dim_customer.country]",
+              "datatype": "text",
+              "merged": true,
+              "title": "country"
+            },
+            "parent": {
+              "jaql": {
+                "table": "dim_customer",
+                "column": "region",
+                "dim": "[dim_customer.region]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Region"
+              },
+              "field": {
+                "id": "[dim_customer.region]",
+                "index": 0
+              }
+            },
+            "through": {
+              "jaql": {
+                "datatype": "text",
+                "dim": "[dim_customer.region]",
+                "title": "Region",
+                "column": "region",
+                "table": "dim_customer",
+                "filter": {
+                  "explicit": true,
+                  "multiSelection": true,
+                  "members": [
+                    "Midwest"
+                  ]
+                }
+              }
+            },
+            "field": {
+              "id": "[dim_customer.country]",
+              "index": 0
+            }
+          },
+          {
+            "jaql": {
+              "table": "dim_customer",
+              "column": "state",
+              "dim": "[dim_customer.state]",
+              "datatype": "text",
+              "merged": true,
+              "title": "state"
+            },
+            "parent": {
+              "jaql": {
+                "table": "dim_customer",
+                "column": "region",
+                "dim": "[dim_customer.region]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Region"
+              },
+              "field": {
+                "id": "[dim_customer.region]",
+                "index": 1
+              },
+              "format": {
+                "width": 145
+              },
+              "activeHierarchy": {
+                "_id": "5e3b217a9952120e9c4849ba",
+                "title": "Region -> Acquired Date"
+              }
+            },
+            "through": {
+              "jaql": {
+                "datatype": "text",
+                "dim": "[dim_customer.region]",
+                "title": "Region",
+                "column": "region",
+                "table": "dim_customer",
+                "filter": {
+                  "explicit": true,
+                  "multiSelection": true,
+                  "members": [
+                    "Midwest"
+                  ]
+                }
+              }
+            },
+            "field": {
+              "id": "[dim_customer.state]",
+              "index": 1
+            },
+            "activeHierarchy": {
+              "_id": "5e3b212b9952120e9c4849ac",
+              "title": "Region -> Name"
+            }
+          }
+        ],
+        "ignore": {
+          "dimensions": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dim_customer",
+                  "column": "country",
+                  "dim": "[dim_customer.country]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Country"
+                },
+                "field": {
+                  "id": "[dim_customer.country]",
+                  "index": 0
+                },
+                "format": {
+                  "width": 114
+                },
+                "activeHierarchy": {
+                  "_id": "5e3b20e19d4a041e7c8f311b",
+                  "title": "Country -> Name"
+                }
+              },
+              {
+                "jaql": {
+                  "table": "dim_customer",
+                  "column": "region",
+                  "dim": "[dim_customer.region]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Region"
+                },
+                "field": {
+                  "id": "[dim_customer.region]",
+                  "index": 1
+                },
+                "format": {
+                  "width": 145
+                },
+                "activeHierarchy": {
+                  "_id": "5e3b217a9952120e9c4849ba",
+                  "title": "Region -> Acquired Date"
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([ACC71-54C]),[CCA01-742], [FF5B4-FC4])",
+                  "context": {
+                    "[CCA01-742]": {
+                      "table": "dim_customer",
+                      "column": "acq_date",
+                      "dim": "[dim_customer.acq_date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in acq_date",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "2016-01-01T00:00:00"
+                        ]
+                      },
+                      "collapsed": false,
+                      "datasource": {
+                        "title": "SaaS Customer Churn",
+                        "fullname": "LocalHost/SaaS Customer Churn",
+                        "id": "aLOCALHOST_aSAASIAAaCUSTOMERIAAaCHURN",
+                        "address": "LocalHost",
+                        "database": "aSaaSIAAaCustomerIAAaChurn"
+                      }
+                    },
+                    "[ACC71-54C]": {
+                      "table": "dim_customer",
+                      "column": "customer_id",
+                      "dim": "[dim_customer.customer_id]",
+                      "datatype": "numeric",
+                      "merged": true,
+                      "title": "Customer Id"
+                    },
+                    "[FF5B4-FC4]": {
+                      "table": "dim_customer",
+                      "column": "churn",
+                      "dim": "[dim_customer.churn]",
+                      "datatype": "numeric",
+                      "title": "churn",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "0"
+                        ]
+                      },
+                      "collapsed": false,
+                      "datasource": {
+                        "title": "SaaS Customer Churn",
+                        "fullname": "LocalHost/SaaS Customer Churn",
+                        "id": "aLOCALHOST_aSAASIAAaCUSTOMERIAAaCHURN",
+                        "address": "LocalHost",
+                        "database": "aSaaSIAAaCustomerIAAaChurn"
+                      }
+                    }
+                  },
+                  "title": "TY New Accounts"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  },
+                  "width": 162
+                },
+                "field": {
+                  "id": "(count([ACC71-54C]),[CCA01-742], [FF5B4-FC4])",
+                  "index": 2
+                }
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "dashboardid": "57df93248b119dfc69000001",
+      "drawing": true,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false
+      },
+      "iconSmall": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "instanceid": "26245-326B-77",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": false,
+        "autoUpdateOnEveryChange": true,
+        "limitFilters": {}
+      },
+      "style": {
+        "pageSize": 25,
+        "automaticHeight": false,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "title": {
+          "titleMenuEnabled": true,
+          "fontWeightEnabled": true,
+          "titleFontWeight": "bold",
+          "fontTitleBackgroundEnabled": true,
+          "titleBackground": "#00652C",
+          "fontColorEnabled": true,
+          "titleFontColor": "#FFFFFF"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "country",
+              "title": "country",
+              "singular": "country",
+              "plural": "country"
+            },
+            {
+              "id": "region",
+              "title": "Region",
+              "singular": "Region",
+              "plural": "Region"
+            }
+          ]
+        }
+      },
+      "iconSmallWizard": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "queryStartTime": "2020-02-05T15:15:26",
+      "widgetTimingLoged": false,
+      "realTimeRefreshing": false,
+      "displayMenu": false
+    },
+    {
+      "title": "ACQUSITIONS",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "5c5b30cd0dca88459048501c",
+      "desc": null,
+      "source": "5cca0710e1805f1fa07ec719",
+      "datasource": {
+        "title": "SaaS Customer Churn",
+        "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+        "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+        "address": "ct-query-01.prod.sisense.com",
+        "database": "aSaaSIAAaCustomerIAAaChurn"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [
+            "[fact_calls.call_date (Calendar)]",
+            "[dim_date.date (Calendar)]"
+          ],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([A3340-706]),[0EB96-902])",
+                  "context": {
+                    "[0EB96-902]": {
+                      "table": "dim_customer",
+                      "column": "acq_date",
+                      "dim": "[dim_customer.acq_date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in acq_date",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "2016-01-01T00:00:00"
+                        ]
+                      },
+                      "collapsed": false
+                    },
+                    "[A3340-706]": {
+                      "table": "dim_customer",
+                      "column": "customer_id",
+                      "dim": "[dim_customer.customer_id]",
+                      "datatype": "numeric",
+                      "merged": true,
+                      "title": "Customer Id"
+                    }
+                  },
+                  "title": "This Year"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#F7DD3C"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([0B660-328]),[7AF29-5C7])",
+                  "context": {
+                    "[7AF29-5C7]": {
+                      "table": "dim_customer",
+                      "column": "acq_date",
+                      "dim": "[dim_customer.acq_date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in acq_date",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "2015-01-01T00:00:00"
+                        ]
+                      },
+                      "collapsed": false
+                    },
+                    "[0B660-328]": {
+                      "table": "dim_customer",
+                      "column": "customer_id",
+                      "dim": "[dim_customer.customer_id]",
+                      "datatype": "numeric",
+                      "merged": true,
+                      "title": "Customer Id"
+                    }
+                  },
+                  "title": "Previous Year"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "min",
+            "items": [
+              {
+                "jaql": {
+                  "formula": "0",
+                  "title": "0 (default)"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "max",
+            "items": [
+              {
+                "jaql": {
+                  "formula": "100",
+                  "title": "100 (default)"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false
+      },
+      "forcedRedraw": false,
+      "iconSmall": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "instanceid": "53E41-A3B6-3B",
+      "size": "big",
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": false,
+            "enabled": true
+          }
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        },
+        "title": {
+          "titleMenuEnabled": true,
+          "titleAlign": "center",
+          "fontSizeEnabled": true,
+          "titleFontSize": "14pt",
+          "fontWeightEnabled": true,
+          "titleFontWeight": "bold",
+          "fontColorEnabled": true,
+          "titleFontColor": "#FFFFFF",
+          "fontTitleBackgroundEnabled": true,
+          "titleBackground": "#00652C",
+          "fontFamilyEnabled": true
+        }
+      },
+      "iconSmallWizard": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "queryStartTime": "2019-03-11T17:57:59",
+      "widgetTimingLoged": false,
+      "continuousDates": false,
+      "nullAsZero": false,
+      "realTimeRefreshing": false,
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at http://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\n// set the background color here\nvar bgColor = '#FFFFFF'\n\t//'#A6E29E';\nvar fontColor = '#494848'\n\t//'#6D6E66';\nvar fontStyle_1 = 'bold';\n\nwidget.on('initialized', function(w, e) {\n var options = {\n\tbackgroundColor: bgColor,\n\t title: {\n          fontSizes: {\n              big: 25,\n              medium: 20\n          },\n          color: fontColor\n      },\n      value: {\n          fontStyle: fontStyle_1,\n\t\t  fontSizes: {\n              big: 65,\n              medium: 60\n          },\n          color: fontColor\n      },\n     secondaryValue: {\n\t\tfontSizes: {\n              big: 20,\n              medium: 18\n          },\n\t\tcolor: fontColor\n      },\n   secondaryTitle: {\n          fontSizes: {\n              big: 20,\n              medium: 18\n          },\n\t\tcolor: fontColor\n      },\n\t  borderColor: '#ffffff'\n };\n\n w.indicatorInstance.setOptions('numericSimple', options);\n});\n\n\nwidget.on('domready', function (w) {\n\t$(element).css('background-color', bgColor);\n//\t$('widget-header' ,element.parent()).css({'background-color':bgColor});\n//\t$('widget-header' ,element.parent()).css({'margin':'0px 0px 0px 0px'});\n//\t$('widget-header' ,element.parent()).css({'padding':'0px 0px 0px 8px'});\n//\t$('widget-header' ,element.parent()).css({'color':fontColor});\n});",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false,
+        "noTitle": false
+      },
+      "dashboardid": "57df93248b119dfc69000001",
+      "drawing": true
+    },
+    {
+      "title": "CHURN RATE",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "5c5b30d90dca884590485020",
+      "desc": null,
+      "source": "5cca0710e1805f1fa07ec718",
+      "datasource": {
+        "title": "SaaS Customer Churn",
+        "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+        "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+        "address": "ct-query-01.prod.sisense.com",
+        "database": "aSaaSIAAaCustomerIAAaChurn"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [
+            "[fact_calls.call_date (Calendar)]",
+            "[dim_date.date (Calendar)]"
+          ],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([E0A17-5CF]),[1F963-B00],[9A49B-BD9])/([BA768-EFA],[35B2F-0D3])",
+                  "context": {
+                    "[9A49B-BD9]": {
+                      "table": "dim_customer",
+                      "column": "last_activity_date",
+                      "dim": "[dim_customer.last_activity_date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in last_activity_date",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "2016-01-01T00:00:00"
+                        ]
+                      },
+                      "collapsed": false
+                    },
+                    "[BA768-EFA]": {
+                      "table": "dim_customer",
+                      "column": "customer_id",
+                      "dim": "[dim_customer.customer_id]",
+                      "datatype": "numeric",
+                      "merged": true,
+                      "agg": "count",
+                      "title": "# of unique customer_id"
+                    },
+                    "[E0A17-5CF]": {
+                      "table": "dim_customer",
+                      "column": "customer_id",
+                      "dim": "[dim_customer.customer_id]",
+                      "datatype": "numeric",
+                      "merged": true,
+                      "title": "Customer Id"
+                    },
+                    "[35B2F-0D3]": {
+                      "table": "dim_customer",
+                      "column": "churn",
+                      "dim": "[dim_customer.churn]",
+                      "datatype": "numeric",
+                      "title": "churn",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "0"
+                        ]
+                      },
+                      "collapsed": false
+                    },
+                    "[1F963-B00]": {
+                      "table": "dim_customer",
+                      "column": "churn",
+                      "dim": "[dim_customer.churn]",
+                      "datatype": "numeric",
+                      "title": "churn",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "1"
+                        ]
+                      },
+                      "collapsed": false
+                    }
+                  },
+                  "title": "Current"
+                },
+                "format": {
+                  "mask": {
+                    "decimals": 1,
+                    "percent": true
+                  },
+                  "color": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "0.32",
+                  "context": {},
+                  "title": "Goal"
+                },
+                "format": {
+                  "mask": {
+                    "decimals": 1,
+                    "percent": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "min",
+            "items": [
+              {
+                "jaql": {
+                  "formula": "0",
+                  "title": "0 (default)"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "max",
+            "items": [
+              {
+                "jaql": {
+                  "formula": "100",
+                  "title": "100 (default)"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false
+      },
+      "forcedRedraw": false,
+      "iconSmall": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "instanceid": "53E41-A3B6-3B",
+      "size": "big",
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": false,
+            "enabled": true
+          }
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        },
+        "title": {
+          "titleMenuEnabled": true,
+          "titleAlign": "center",
+          "fontTitleBackgroundEnabled": true,
+          "titleBackground": "#8E1E00",
+          "fontWeightEnabled": true,
+          "titleFontWeight": "bold",
+          "fontColorEnabled": true,
+          "titleFontColor": "#FFFFFF",
+          "fontSizeEnabled": true,
+          "titleFontSize": "14pt"
+        }
+      },
+      "iconSmallWizard": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "queryStartTime": "2019-03-11T17:58:36",
+      "widgetTimingLoged": false,
+      "continuousDates": false,
+      "nullAsZero": false,
+      "realTimeRefreshing": false,
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at http://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\n// set the background color here\nvar bgColor = '#FFFFFF';\n\t//'#F4897E';\nvar fontColor = '#494848'\n\t//'#6D6E66';\nvar fontStyle_1 = 'bold';\n\nwidget.on('initialized', function(w, e) {\n var options = {\n\tbackgroundColor: bgColor,\n\t title: {\n          fontSizes: {\n              big: 25,\n              medium: 20\n          },\n          color: fontColor\n      },\n      value: {\n          fontStyle: fontStyle_1,\n\t\t  fontSizes: {\n              big: 65,\n              medium: 60\n          },\n          color: fontColor\n      },\n     secondaryValue: {\n\t\tfontSizes: {\n              big: 20,\n              medium: 18\n          },\n\t\tcolor: fontColor\n      },\n   secondaryTitle: {\n          fontSizes: {\n              big: 20,\n              medium: 18\n          },\n\t\tcolor: fontColor\n      },\n\t  borderColor: '#ffffff'\n };\n\n w.indicatorInstance.setOptions('numericSimple', options);\n});\n\n\nwidget.on('domready', function (w) {\n\t$(element).css('background-color', bgColor);\n//\t$('widget-header' ,element.parent()).css({'background-color':bgColor});\n//\t$('widget-header' ,element.parent()).css({'margin':'0px 0px 0px 0px'});\n//\t$('widget-header' ,element.parent()).css({'padding':'0px 0px 0px 8px'});\n//\t$('widget-header' ,element.parent()).css({'color':fontColor});\n});",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false,
+        "noTitle": false
+      },
+      "dashboardid": "57df93248b119dfc69000001",
+      "drawing": true
+    },
+    {
+      "title": "Ceased Trend",
+      "type": "chart/line",
+      "subtype": "line/basic",
+      "oid": "57df93248b119dfc6900000a",
+      "desc": null,
+      "source": "5cca0710e1805f1fa07ec716",
+      "datasource": {
+        "title": "SaaS Customer Churn",
+        "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+        "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+        "address": "ct-query-01.prod.sisense.com",
+        "database": "aSaaSIAAaCustomerIAAaChurn"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [
+            "[fact_calls.call_date (Calendar)]"
+          ],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dim_customer",
+                  "column": "last_active_yoy",
+                  "dim": "[dim_customer.last_active_yoy (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Months in last_active_yoy"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MMMM",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate"
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([A0652-79F]))",
+                  "context": {
+                    "[A0652-79F]": {
+                      "table": "dim_customer",
+                      "column": "customer_id",
+                      "dim": "[dim_customer.customer_id]",
+                      "datatype": "numeric",
+                      "merged": true,
+                      "title": "Customer Id"
+                    }
+                  },
+                  "title": "Acquisitions"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color_bkp": {
+                    "color": "#6EDA55",
+                    "type": "color"
+                  }
+                },
+                "disabled": false,
+                "regressionType": "none"
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dim_customer",
+                  "column": "last_activity_date",
+                  "dim": "[dim_customer.last_activity_date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in last_activity_date"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  },
+                  "members": {
+                    "2014": {
+                      "color": "#ffa3a0",
+                      "title": "2014",
+                      "inResultset": true
+                    },
+                    "2015": {
+                      "color": "#fc7570",
+                      "title": "2015",
+                      "inResultset": true
+                    },
+                    "2016": {
+                      "color": "#ab504c",
+                      "title": "2016",
+                      "inResultset": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dim_customer",
+                  "column": "last_activity_isYTD",
+                  "dim": "[dim_customer.last_activity_isYTD]",
+                  "datatype": "numeric",
+                  "title": "last_activity_isYTD",
+                  "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                      "1"
+                    ]
+                  },
+                  "collapsed": false,
+                  "datasource": {
+                    "title": "SaaS Customer Churn",
+                    "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+                    "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+                    "address": "ct-query-01.prod.sisense.com",
+                    "database": "aSaaSIAAaCustomerIAAaChurn"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dashboardid": "57df93248b119dfc69000001",
+      "disableSelctor": false,
+      "drawing": true,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false
+      },
+      "forcedRedraw": false,
+      "iconSmall": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "instanceid": "C9B60-7F94-50",
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": false,
+        "previousScrollerLocation": {
+          "min": 0,
+          "max": 8
+        }
+      },
+      "style": {
+        "lineWidth": {
+          "width": "bold"
+        },
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0
+        },
+        "markers": {
+          "enabled": true,
+          "fill": "filled",
+          "size": "small"
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "title": {
+          "titleMenuEnabled": true,
+          "fontWeightEnabled": true,
+          "titleFontWeight": "bold",
+          "fontTitleBackgroundEnabled": true,
+          "titleBackground": "#8E1E00",
+          "titleAlign": "center",
+          "fontColorEnabled": true,
+          "titleFontColor": "#FFFFFF"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "months",
+              "title": "months",
+              "singular": "months",
+              "plural": "months"
+            },
+            {
+              "id": "years",
+              "title": "years",
+              "singular": "years",
+              "plural": "years"
+            },
+            {
+              "id": "last_activity_isytd",
+              "title": "last_activity_isYTD",
+              "singular": "last_activity_isYTD",
+              "plural": "last_activity_isYTD"
+            }
+          ]
+        }
+      },
+      "iconSmallWizard": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "queryStartTime": "2020-02-05T15:16:46",
+      "widgetTimingLoged": false,
+      "continuousDates": false,
+      "nullAsZero": false,
+      "minDate": 1325394000000,
+      "maxDate": 1346472000000,
+      "tickInterval": 2678400000,
+      "tickLevel": "month",
+      "chart": {
+        "0": {
+          "sizzle-1580931714240": {
+            "parentNode": [
+              "4074 22",
+              1701
+            ]
+          }
+        },
+        "context": {
+          "sizzle-1580931714240": {
+            "parentNode": [
+              "4074 22",
+              1701
+            ]
+          }
+        },
+        "length": 1
+      },
+      "realTimeRefreshing": false,
+      "canEditFilters": true,
+      "script": "/*This script is to add background image to the line chart*/\n\nwidget.on('render', function(sender,event){\n\tvar imageLink = 'http://html-color.org/de/FFE8E1.jpg'                  //\tURL to the background Image\n\tsender.queryResult.chart.plotBackgroundImage = imageLink;\t//\tSet the chart background as the image\t\n})",
+      "displayMenu": false
+    },
+    {
+      "title": "This Year State Churn Heatmap",
+      "type": "map/area",
+      "subtype": "areamap/usa",
+      "oid": "5c86dd340dca88459048513e",
+      "desc": null,
+      "source": "5cca0710e1805f1fa07ec71a",
+      "datasource": {
+        "title": "SaaS Customer Churn",
+        "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+        "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+        "address": "ct-query-01.prod.sisense.com",
+        "database": "aSaaSIAAaCustomerIAAaChurn"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [
+            "[fact_calls.call_date (Calendar)]"
+          ],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "geo",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dim_customer",
+                  "column": "state",
+                  "dim": "[dim_customer.state]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "state"
+                }
+              }
+            ]
+          },
+          {
+            "name": "color",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([C9732-21B]),[3F085-04F],[1C5B1-97A])/([B9562-F27],[24079-80D])",
+                  "context": {
+                    "[1C5B1-97A]": {
+                      "table": "dim_customer",
+                      "column": "last_activity_date",
+                      "dim": "[dim_customer.last_activity_date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in last_activity_date",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "2016-01-01T00:00:00"
+                        ]
+                      },
+                      "collapsed": false
+                    },
+                    "[B9562-F27]": {
+                      "table": "dim_customer",
+                      "column": "customer_id",
+                      "dim": "[dim_customer.customer_id]",
+                      "datatype": "numeric",
+                      "merged": true,
+                      "agg": "count",
+                      "title": "# of unique customer_id"
+                    },
+                    "[C9732-21B]": {
+                      "table": "dim_customer",
+                      "column": "customer_id",
+                      "dim": "[dim_customer.customer_id]",
+                      "datatype": "numeric",
+                      "merged": true,
+                      "title": "Customer Id"
+                    },
+                    "[24079-80D]": {
+                      "table": "dim_customer",
+                      "column": "churn",
+                      "dim": "[dim_customer.churn]",
+                      "datatype": "numeric",
+                      "title": "churn",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "0"
+                        ]
+                      },
+                      "collapsed": false
+                    },
+                    "[3F085-04F]": {
+                      "table": "dim_customer",
+                      "column": "churn",
+                      "dim": "[dim_customer.churn]",
+                      "datatype": "numeric",
+                      "title": "churn",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "1"
+                        ]
+                      },
+                      "collapsed": false
+                    }
+                  },
+                  "title": "Churn"
+                },
+                "format": {
+                  "mask": {
+                    "decimals": 1,
+                    "percent": true
+                  },
+                  "color": {
+                    "steps": 6,
+                    "min": "#ffa3a0",
+                    "max": "#8E1E00",
+                    "minvalue": null,
+                    "midvalue": null,
+                    "maxvalue": null,
+                    "minValueValid": true,
+                    "midValueValid": true,
+                    "maxValueValid": true,
+                    "type": "range",
+                    "rangeMode": "both"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "forcedRedraw": false,
+      "iconSmall": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "instanceid": "B44E0-F83E-19",
+      "style": {
+        "title": {
+          "titleMenuEnabled": true,
+          "fontWeightEnabled": true,
+          "titleFontWeight": "bold",
+          "fontTitleBackgroundEnabled": true,
+          "titleBackground": "#8E1E00",
+          "fontColorEnabled": true,
+          "titleFontColor": "#FFFFFF"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "state",
+              "title": "state",
+              "singular": "state",
+              "plural": "state"
+            }
+          ]
+        }
+      },
+      "iconSmallWizard": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "queryStartTime": "2019-03-11T18:05:06",
+      "widgetTimingLoged": true,
+      "continuousDates": false,
+      "nullAsZero": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": true,
+        "disallowSelector": false,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false,
+        "selectorLocked": false
+      },
+      "dashboardid": "57df93248b119dfc69000001"
+    },
+    {
+      "title": "Total Active Account",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "57df93248b119dfc69000006",
+      "desc": null,
+      "source": "5cca0710e1805f1fa07ec713",
+      "datasource": {
+        "title": "SaaS Customer Churn",
+        "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+        "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+        "address": "ct-query-01.prod.sisense.com",
+        "database": "aSaaSIAAaCustomerIAAaChurn"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [
+            "[fact_calls.call_date (Calendar)]"
+          ],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([326FA-943]),[78FB8-C40])",
+                  "context": {
+                    "[326FA-943]": {
+                      "table": "dim_customer",
+                      "column": "customer_id",
+                      "dim": "[dim_customer.customer_id]",
+                      "datatype": "numeric",
+                      "merged": true,
+                      "title": "Customer Id"
+                    },
+                    "[78FB8-C40]": {
+                      "table": "dim_customer",
+                      "column": "churn",
+                      "dim": "[dim_customer.churn]",
+                      "datatype": "numeric",
+                      "title": "churn",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "0"
+                        ]
+                      },
+                      "collapsed": false
+                    }
+                  },
+                  "title": "(count([Customer Id]),[churn1])"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "condition",
+                    "conditions": [
+                      {
+                        "color": "#B62B07",
+                        "operator": "<",
+                        "expression": "30000",
+                        "expressionValue": "30000"
+                      },
+                      {
+                        "color": "#0DA54F",
+                        "operator": "≥",
+                        "expression": "30000",
+                        "expressionValue": "30000"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "30000",
+                  "context": {},
+                  "title": "Goal"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "dashboardid": "57df93248b119dfc69000001",
+      "drawing": true,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false
+      },
+      "forcedRedraw": false,
+      "iconSmall": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "instanceid": "EEF1D-B11B-86",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false,
+        "noTitle": false
+      },
+      "size": "big",
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": false
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": false,
+            "enabled": true
+          }
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/pictogram": {},
+        "title": {
+          "titleMenuEnabled": true,
+          "titleAlign": "center",
+          "fontWeightEnabled": true,
+          "titleFontWeight": "bold",
+          "fontColorEnabled": true,
+          "titleFontColor": "#FFFFFF",
+          "fontTitleBackgroundEnabled": true,
+          "titleBackground": "#000000"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        }
+      },
+      "iconSmallWizard": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "queryStartTime": "2019-03-07T12:44:46",
+      "widgetTimingLoged": false,
+      "continuousDates": false,
+      "nullAsZero": false,
+      "realTimeRefreshing": false
+    },
+    {
+      "title": "CEASED",
+      "type": "indicator",
+      "subtype": "indicator/numeric",
+      "oid": "5c5b30d30dca88459048501e",
+      "desc": null,
+      "source": "5cca0710e1805f1fa07ec715",
+      "datasource": {
+        "title": "SaaS Customer Churn",
+        "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+        "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+        "address": "ct-query-01.prod.sisense.com",
+        "database": "aSaaSIAAaCustomerIAAaChurn"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [
+            "[fact_calls.call_date (Calendar)]",
+            "[dim_date.date (Calendar)]"
+          ],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([401EB-D78]),[3013B-14F],[464BD-A9E])",
+                  "context": {
+                    "[3013B-14F]": {
+                      "table": "dim_customer",
+                      "column": "last_activity_date",
+                      "dim": "[dim_customer.last_activity_date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in last_activity_date",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "2016-01-01T00:00:00"
+                        ]
+                      },
+                      "collapsed": false
+                    },
+                    "[401EB-D78]": {
+                      "table": "dim_customer",
+                      "column": "customer_id",
+                      "dim": "[dim_customer.customer_id]",
+                      "datatype": "numeric",
+                      "merged": true,
+                      "title": "Customer Id"
+                    },
+                    "[464BD-A9E]": {
+                      "table": "dim_customer",
+                      "column": "churn",
+                      "dim": "[dim_customer.churn]",
+                      "datatype": "numeric",
+                      "title": "churn",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "1"
+                        ]
+                      },
+                      "collapsed": false
+                    }
+                  },
+                  "title": "This Year"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#F88397"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([30788-86E]),[068EA-FA1],[C6275-E6E])",
+                  "context": {
+                    "[068EA-FA1]": {
+                      "table": "dim_customer",
+                      "column": "last_activity_date",
+                      "dim": "[dim_customer.last_activity_date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in last_activity_date",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "2015-01-01T00:00:00"
+                        ]
+                      },
+                      "collapsed": false
+                    },
+                    "[30788-86E]": {
+                      "table": "dim_customer",
+                      "column": "customer_id",
+                      "dim": "[dim_customer.customer_id]",
+                      "datatype": "numeric",
+                      "merged": true,
+                      "title": "Customer Id"
+                    },
+                    "[C6275-E6E]": {
+                      "table": "dim_customer",
+                      "column": "churn",
+                      "dim": "[dim_customer.churn]",
+                      "datatype": "numeric",
+                      "title": "churn",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "1"
+                        ]
+                      },
+                      "collapsed": false
+                    }
+                  },
+                  "title": "Previous Year"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "min",
+            "items": [
+              {
+                "jaql": {
+                  "formula": "0",
+                  "title": "0 (default)"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "max",
+            "items": [
+              {
+                "jaql": {
+                  "formula": "100",
+                  "title": "100 (default)"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false
+      },
+      "forcedRedraw": false,
+      "iconSmall": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "instanceid": "53E41-A3B6-3B",
+      "size": "big",
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": false,
+            "enabled": true
+          }
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        },
+        "title": {
+          "titleMenuEnabled": true,
+          "fontTitleBackgroundEnabled": true,
+          "titleBackground": "#8E1E00",
+          "fontWeightEnabled": true,
+          "titleFontWeight": "bold",
+          "fontSizeEnabled": true,
+          "titleFontSize": "14pt",
+          "fontColorEnabled": true,
+          "titleFontColor": "#FFFFFF",
+          "titleAlign": "center"
+        }
+      },
+      "iconSmallWizard": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "queryStartTime": "2019-03-11T17:58:23",
+      "widgetTimingLoged": false,
+      "continuousDates": false,
+      "nullAsZero": false,
+      "realTimeRefreshing": false,
+      "script": "/*\nWelcome to your Widget's Script.\n\nTo learn how you can access the Widget and Dashboard objects, see the online documentation at http://developer.sisense.com/pages/viewpage.action?pageId=557127\n*/\n\n// set the background color here\nvar bgColor = '#FFFFFF';\n\t//'#F4897E';\nvar fontColor = '#494848'\n\t//'#6D6E66';\nvar fontStyle_1 = 'bold';\n\nwidget.on('initialized', function(w, e) {\n var options = {\n\tbackgroundColor: bgColor,\n\t title: {\n          fontSizes: {\n              big: 25,\n              medium: 20\n          },\n          color: fontColor\n      },\n      value: {\n          fontStyle: fontStyle_1,\n\t\t  fontSizes: {\n              big: 65,\n              medium: 60\n          },\n          color: fontColor\n      },\n     secondaryValue: {\n\t\tfontSizes: {\n              big: 20,\n              medium: 18\n          },\n\t\tcolor: fontColor\n      },\n   secondaryTitle: {\n          fontSizes: {\n              big: 20,\n              medium: 18\n          },\n\t\tcolor: fontColor\n      },\n\t  borderColor: '#ffffff'\n };\n\n w.indicatorInstance.setOptions('numericSimple', options);\n});\n\n\nwidget.on('domready', function (w) {\n\t$(element).css('background-color', bgColor);\n//\t$('widget-header' ,element.parent()).css({'background-color':bgColor});\n//\t$('widget-header' ,element.parent()).css({'margin':'0px 0px 0px 0px'});\n//\t$('widget-header' ,element.parent()).css({'padding':'0px 0px 0px 8px'});\n//\t$('widget-header' ,element.parent()).css({'color':fontColor});\n});",
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false,
+        "noTitle": false
+      },
+      "dashboardid": "57df93248b119dfc69000001",
+      "drawing": true
+    },
+    {
+      "title": "Acquisitions Trend",
+      "type": "chart/line",
+      "subtype": "line/basic",
+      "oid": "57df93248b119dfc69000009",
+      "desc": null,
+      "source": "5cca0710e1805f1fa07ec714",
+      "datasource": {
+        "title": "SaaS Customer Churn",
+        "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+        "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+        "address": "ct-query-01.prod.sisense.com",
+        "database": "aSaaSIAAaCustomerIAAaChurn"
+      },
+      "selection": null,
+      "metadata": {
+        "drillHistory": [
+          {
+            "jaql": {
+              "table": "dim_customer",
+              "column": "last_activity_date",
+              "dim": "[dim_customer.last_activity_date (Calendar)]",
+              "datatype": "datetime",
+              "merged": true,
+              "level": "months",
+              "title": "Months in last_activity_date"
+            },
+            "parent": {
+              "jaql": {
+                "table": "dim_customer",
+                "column": "acq_yoy",
+                "dim": "[dim_customer.acq_yoy (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "level": "months",
+                "title": "Months in acq_yoy"
+              },
+              "format": {
+                "mask": {
+                  "years": "yyyy",
+                  "quarters": "yyyy Q",
+                  "months": "MMMM",
+                  "weeks": "ww yyyy",
+                  "days": "shortDate"
+                }
+              },
+              "hierarchies": [
+                "calendar",
+                "calendar - weeks"
+              ],
+              "activeHierarchy": {
+                "_id": "calendar",
+                "title": "Calendar Hierarchy"
+              }
+            },
+            "through": {
+              "jaql": {
+                "datatype": "datetime",
+                "dim": "[dim_customer.acq_yoy (Calendar)]",
+                "title": "Months in acq_yoy",
+                "level": "months",
+                "column": "acq_yoy",
+                "table": "dim_customer",
+                "filter": {
+                  "explicit": true,
+                  "multiSelection": true,
+                  "members": [
+                    "2012-01-01T00:00:00"
+                  ]
+                }
+              }
+            },
+            "activeHierarchy": {
+              "_id": "calendar",
+              "title": "Calendar Hierarchy"
+            },
+            "hierarchies": [
+              "calendar",
+              "calendar - weeks"
+            ],
+            "format": {
+              "mask": {
+                "years": "yyyy",
+                "quarters": "yyyy Q",
+                "months": "MM/yyyy",
+                "weeks": "ww yyyy",
+                "days": "shortDate",
+                "minutes": "HH:mm",
+                "isdefault": true
+              }
+            }
+          }
+        ],
+        "ignore": {
+          "dimensions": [
+            "[fact_calls.call_date (Calendar)]"
+          ],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "x-axis",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dim_customer",
+                  "column": "acq_yoy",
+                  "dim": "[dim_customer.acq_yoy (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "months",
+                  "title": "Months in acq_yoy"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MMMM",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate"
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "activeHierarchy": {
+                  "_id": "calendar",
+                  "title": "Calendar Hierarchy"
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([A0652-79F]))",
+                  "context": {
+                    "[A0652-79F]": {
+                      "table": "dim_customer",
+                      "column": "customer_id",
+                      "dim": "[dim_customer.customer_id]",
+                      "datatype": "numeric",
+                      "merged": true,
+                      "title": "Customer Id"
+                    }
+                  },
+                  "title": "Acquisitions"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color_bkp": {
+                    "color": "#6EDA55",
+                    "type": "color"
+                  }
+                },
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dim_customer",
+                  "column": "acq_date",
+                  "dim": "[dim_customer.acq_date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "years",
+                  "title": "Years in acq_date"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  },
+                  "members": {
+                    "2014": {
+                      "color": "#91ff77",
+                      "title": "2014",
+                      "inResultset": true
+                    },
+                    "2015": {
+                      "color": "#6eda55",
+                      "title": "2015",
+                      "inResultset": true
+                    },
+                    "2016": {
+                      "color": "#4b943a",
+                      "title": "2016",
+                      "inResultset": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dim_customer",
+                  "column": "acq_isYTD",
+                  "dim": "[dim_customer.acq_isYTD]",
+                  "datatype": "numeric",
+                  "title": "acq_isYTD",
+                  "filter": {
+                    "explicit": true,
+                    "multiSelection": true,
+                    "members": [
+                      "1"
+                    ]
+                  },
+                  "collapsed": false,
+                  "datasource": {
+                    "title": "SaaS Customer Churn",
+                    "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+                    "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+                    "address": "ct-query-01.prod.sisense.com",
+                    "database": "aSaaSIAAaCustomerIAAaChurn"
+                  }
+                },
+                "disabled": false
+              }
+            ]
+          }
+        ]
+      },
+      "dashboardid": "57df93248b119dfc69000001",
+      "disableSelctor": false,
+      "drawing": true,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false
+      },
+      "forcedRedraw": false,
+      "iconSmall": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "instanceid": "C9B60-7F94-50",
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": false,
+        "previousScrollerLocation": {
+          "min": 0,
+          "max": 8
+        }
+      },
+      "style": {
+        "lineWidth": {
+          "width": "bold"
+        },
+        "legend": {
+          "enabled": true,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0
+        },
+        "markers": {
+          "enabled": true,
+          "fill": "filled",
+          "size": "small"
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "title": {
+          "titleMenuEnabled": true,
+          "fontWeightEnabled": true,
+          "titleFontWeight": "bold",
+          "fontTitleBackgroundEnabled": true,
+          "titleBackground": "#00652C",
+          "fontColorEnabled": true,
+          "titleFontColor": "#FFFFFF",
+          "titleAlign": "center"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "months",
+              "title": "months",
+              "singular": "months",
+              "plural": "months"
+            },
+            {
+              "id": "years",
+              "title": "years",
+              "singular": "years",
+              "plural": "years"
+            },
+            {
+              "id": "acq_isytd",
+              "title": "acq_isYTD",
+              "singular": "acq_isYTD",
+              "plural": "acq_isYTD"
+            }
+          ]
+        }
+      },
+      "iconSmallWizard": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "queryStartTime": "2020-02-05T15:16:46",
+      "widgetTimingLoged": false,
+      "continuousDates": false,
+      "nullAsZero": false,
+      "minDate": 1325394000000,
+      "maxDate": 1346472000000,
+      "tickInterval": 2678400000,
+      "tickLevel": "month",
+      "chart": {
+        "0": {
+          "sizzle-1580931714240": {
+            "parentNode": [
+              "4074 22",
+              1694
+            ]
+          }
+        },
+        "context": {
+          "sizzle-1580931714240": {
+            "parentNode": [
+              "4074 22",
+              1694
+            ]
+          }
+        },
+        "length": 1
+      },
+      "realTimeRefreshing": false,
+      "canEditFilters": true,
+      "script": "/*This script is to add background image to the line chart*/\n\nwidget.on('render', function(sender,event){\n\tvar imageLink = 'http://html-color.org/de/DDFAEA.jpg'                  //\tURL to the background Image\n\tsender.queryResult.chart.plotBackgroundImage = imageLink;\t//\tSet the chart background as the image\t\n})\n",
+      "displayMenu": false
+    },
+    {
+      "title": "Demographics: Churned Accounts",
+      "type": "pivot",
+      "subtype": "pivot",
+      "oid": "5c86d82f0dca884590485106",
+      "desc": null,
+      "source": "5cca0710e1805f1fa07ec717",
+      "datasource": {
+        "title": "SaaS Customer Churn",
+        "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+        "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+        "address": "ct-query-01.prod.sisense.com",
+        "database": "aSaaSIAAaCustomerIAAaChurn"
+      },
+      "selection": null,
+      "metadata": {
+        "drillHistory": [
+          {
+            "jaql": {
+              "table": "dim_customer",
+              "column": "country",
+              "dim": "[dim_customer.country]",
+              "datatype": "text",
+              "merged": true,
+              "title": "country"
+            },
+            "parent": {
+              "jaql": {
+                "table": "dim_customer",
+                "column": "region",
+                "dim": "[dim_customer.region]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Region"
+              },
+              "field": {
+                "id": "[dim_customer.region]",
+                "index": 0
+              }
+            },
+            "through": {
+              "jaql": {
+                "datatype": "text",
+                "dim": "[dim_customer.region]",
+                "title": "Region",
+                "column": "region",
+                "table": "dim_customer",
+                "filter": {
+                  "explicit": true,
+                  "multiSelection": true,
+                  "members": [
+                    "Midwest"
+                  ]
+                }
+              }
+            },
+            "field": {
+              "id": "[dim_customer.country]",
+              "index": 0
+            }
+          },
+          {
+            "jaql": {
+              "table": "dim_customer",
+              "column": "state",
+              "dim": "[dim_customer.state]",
+              "datatype": "text",
+              "merged": true,
+              "title": "state"
+            },
+            "parent": {
+              "jaql": {
+                "table": "dim_customer",
+                "column": "country",
+                "dim": "[dim_customer.country]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Country"
+              },
+              "field": {
+                "id": "[dim_customer.country]",
+                "index": 0
+              }
+            },
+            "through": {
+              "jaql": {
+                "datatype": "text",
+                "dim": "[dim_customer.country]",
+                "title": "Country",
+                "column": "country",
+                "table": "dim_customer",
+                "filter": {
+                  "explicit": true,
+                  "multiSelection": true,
+                  "members": [
+                    "USA"
+                  ]
+                }
+              }
+            },
+            "field": {
+              "id": "[dim_customer.state]",
+              "index": 0
+            }
+          }
+        ],
+        "ignore": {
+          "dimensions": [],
+          "all": false
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "dim_customer",
+                  "column": "country",
+                  "dim": "[dim_customer.country]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Country"
+                },
+                "field": {
+                  "id": "[dim_customer.country]",
+                  "index": 0
+                },
+                "format": {
+                  "width": 111
+                }
+              },
+              {
+                "jaql": {
+                  "table": "dim_customer",
+                  "column": "region",
+                  "dim": "[dim_customer.region]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Region"
+                },
+                "field": {
+                  "id": "[dim_customer.region]",
+                  "index": 1
+                },
+                "format": {
+                  "width": 122
+                },
+                "activeHierarchy": {
+                  "_id": "5e3b21b79952120e9c4849d9",
+                  "title": "Region -> Last Activity Date"
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([DA169-CD1]),[020DD-B9A])",
+                  "context": {
+                    "[DA169-CD1]": {
+                      "table": "dim_customer",
+                      "column": "customer_id",
+                      "dim": "[dim_customer.customer_id]",
+                      "datatype": "numeric",
+                      "merged": true,
+                      "title": "Customer Id"
+                    },
+                    "[020DD-B9A]": {
+                      "table": "dim_customer",
+                      "column": "churn",
+                      "dim": "[dim_customer.churn]",
+                      "datatype": "numeric",
+                      "title": "churn",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "0"
+                        ]
+                      },
+                      "collapsed": false
+                    }
+                  },
+                  "title": "Active Accounts"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  },
+                  "width": 150
+                },
+                "field": {
+                  "id": "(count([DA169-CD1]),[020DD-B9A])",
+                  "index": 2
+                }
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([C3B63-914]),[DCBD2-E91],[6887A-CAD])",
+                  "context": {
+                    "[DCBD2-E91]": {
+                      "table": "dim_customer",
+                      "column": "last_activity_date",
+                      "dim": "[dim_customer.last_activity_date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in last_activity_date",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "2016-01-01T00:00:00"
+                        ]
+                      },
+                      "collapsed": false
+                    },
+                    "[C3B63-914]": {
+                      "table": "dim_customer",
+                      "column": "customer_id",
+                      "dim": "[dim_customer.customer_id]",
+                      "datatype": "numeric",
+                      "merged": true,
+                      "title": "Customer Id"
+                    },
+                    "[6887A-CAD]": {
+                      "table": "dim_customer",
+                      "column": "churn",
+                      "dim": "[dim_customer.churn]",
+                      "datatype": "numeric",
+                      "title": "churn",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "1"
+                        ]
+                      },
+                      "collapsed": false
+                    }
+                  },
+                  "title": "TY Ceased"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  },
+                  "width": 135
+                },
+                "field": {
+                  "id": "(count([C3B63-914]),[DCBD2-E91],[6887A-CAD])",
+                  "index": 3
+                }
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([72881-C31]),[562C2-4DC],[B260D-3A2])/([3098A-A2D],[A8395-210],ALL([078AC-9F6]))",
+                  "context": {
+                    "[B260D-3A2]": {
+                      "table": "dim_customer",
+                      "column": "last_activity_date",
+                      "dim": "[dim_customer.last_activity_date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in last_activity_date",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "2016-01-01T00:00:00"
+                        ]
+                      },
+                      "collapsed": false
+                    },
+                    "[3098A-A2D]": {
+                      "table": "dim_customer",
+                      "column": "customer_id",
+                      "dim": "[dim_customer.customer_id]",
+                      "datatype": "numeric",
+                      "merged": true,
+                      "agg": "count",
+                      "title": "# of unique customer_id"
+                    },
+                    "[078AC-9F6]": {
+                      "table": "dim_date",
+                      "column": "date",
+                      "dim": "[dim_date.date (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "years",
+                      "title": "Years in date"
+                    },
+                    "[72881-C31]": {
+                      "table": "dim_customer",
+                      "column": "customer_id",
+                      "dim": "[dim_customer.customer_id]",
+                      "datatype": "numeric",
+                      "merged": true,
+                      "title": "Customer Id"
+                    },
+                    "[A8395-210]": {
+                      "table": "dim_customer",
+                      "column": "churn",
+                      "dim": "[dim_customer.churn]",
+                      "datatype": "numeric",
+                      "title": "churn",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "0"
+                        ]
+                      },
+                      "collapsed": false
+                    },
+                    "[562C2-4DC]": {
+                      "table": "dim_customer",
+                      "column": "churn",
+                      "dim": "[dim_customer.churn]",
+                      "datatype": "numeric",
+                      "title": "churn",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          "1"
+                        ]
+                      },
+                      "collapsed": false
+                    }
+                  },
+                  "title": "TY Churn"
+                },
+                "format": {
+                  "mask": {
+                    "decimals": 1,
+                    "percent": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  },
+                  "databars": false,
+                  "width": 137
+                },
+                "field": {
+                  "id": "(count([72881-C31]),[562C2-4DC],[B260D-3A2])/([3098A-A2D],[A8395-210],ALL([078AC-9F6]))",
+                  "index": 4
+                }
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false
+      },
+      "iconSmall": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "instanceid": "26245-326B-77",
+      "style": {
+        "pageSize": 25,
+        "automaticHeight": false,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "title": {
+          "titleMenuEnabled": true,
+          "fontWeightEnabled": true,
+          "titleFontWeight": "bold",
+          "fontTitleBackgroundEnabled": true,
+          "titleBackground": "#8E1E00",
+          "fontColorEnabled": true,
+          "titleFontColor": "#FFFFFF"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "country",
+              "title": "country",
+              "singular": "country",
+              "plural": "country"
+            },
+            {
+              "id": "region",
+              "title": "Region",
+              "singular": "Region",
+              "plural": "Region"
+            }
+          ]
+        }
+      },
+      "iconSmallWizard": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDOTk4NjMxNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDOTk4NjMyNzU1MTExRTM4QkE0QjUwRjg4NjAzOUM1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUM5OTg2MkY3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUM5OTg2MzA3NTUxMTFFMzhCQTRCNTBGODg2MDM5QzUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4Ed6mDAAACVUlEQVR42uyYzytmURjHXWPCbsTkHxAyG1Ga1SSr2chWJFnIu2AW76zFQkqzkCl2RLGXpYVSFhZIfkzZyMbPMRYkkVyfh0P3feec+97z3iMppz6d4znnfu/z3POcHy/P9/2ct1xyc956kRmAev+xVL/EO77UNtSDD9Wufc+LKfCRqgxEZ9fzvEvHgafob68uXDpJIXEc+mkewx/YgH/YJqDYhePwnz62CSiOFQAOfqCagz4oCnTlQwcsM6YkhvMZ9RlTEmcGfsD3kH6Z8pEYE2Cln2f4yoVKSKZrhNzeD3QnIjjRjEYPz50ZvnKKPrltrY9GD/WZaREPQFK1v8FXFVgBVXnE7bkKlmz0ccpa35RClYF2RaB9Z5EKYWOd6ZsCkByTLUuO6cEnIylxQ7UZQVzGbYX0a/VJJWt9bQA4Ok/1WXYB2r/Sun9HeMEUz52bOnH0WZ92Vvo8d25cxCqIK6orTde4yts2w6Nr8DOTBzjgRD83w57fCutwCDNQSmAy7e3QLadjYPhfGJKXM+Yi4p7fCutwCDNQSmAZ9RlzEbqNKuebqKYDphZZcNjrcFAW0KigDi3ROVH2qAeWVh97HQ4+66tD60Ff2VNK2F2oU2OrhRpYCaTaaZYHViR9nD7N9jpdYLDnO7qrOdEPC2BWYzsIfp2YxYl+WABjMAy36u8daCRlrh0FoNUnZaz0w7ZRWTBJFmkv9ae0+1DsohZkkkX6oJ92H8o6gAQOH5l+/ViUPQKe1NgTOHxk2JWs9Al4UhdAl6MPvAi6AJzre+//lXjlci/AAOnMDanQIR59AAAAAElFTkSuQmCC",
+      "queryStartTime": "2020-02-05T15:13:45",
+      "widgetTimingLoged": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": false,
+        "autoUpdateOnEveryChange": true,
+        "limitFilters": {}
+      },
+      "dashboardid": "57df93248b119dfc69000001",
+      "drawing": true,
+      "script": "",
+      "displayMenu": false
+    }
+  ],
+  "hierarchies": [
+    {
+      "_id": "5e3b212b9952120e9c4849ac",
+      "title": "Region -> Name",
+      "levels": [
+        {
+          "title": "Region",
+          "table": "dim_customer",
+          "column": "region",
+          "datatype": "text",
+          "dim": "[dim_customer.region]",
+          "index": 0,
+          "_id": "5e3b212b9952120e9c4849ab"
+        },
+        {
+          "title": "State",
+          "table": "dim_customer",
+          "column": "state",
+          "datatype": "text",
+          "dim": "[dim_customer.state]",
+          "index": 1,
+          "_id": "5e3b21349d4a041e7c8f3d76"
+        },
+        {
+          "title": "Name",
+          "table": "dim_customer",
+          "column": "name",
+          "datatype": "text",
+          "dim": "[dim_customer.name]",
+          "index": 2,
+          "_id": "5e3b213ae745c21ebcba074e"
+        }
+      ],
+      "cubeId": "5ccc5c3e11fb9c1d682f00a0",
+      "alwaysIncluded": true,
+      "serverAddress": "ct-query-01.prod.sisense.com",
+      "elasticubeTitle": "SaaS Customer Churn"
+    },
+    {
+      "_id": "5e3b217a9952120e9c4849ba",
+      "title": "Region -> Acquired Date",
+      "levels": [
+        {
+          "title": "Region",
+          "table": "dim_customer",
+          "column": "region",
+          "datatype": "text",
+          "dim": "[dim_customer.region]",
+          "index": 0,
+          "_id": "5e3b217a9952120e9c4849b9"
+        },
+        {
+          "title": "Quarters in acq_date",
+          "table": "dim_customer",
+          "column": "acq_date",
+          "datatype": "datetime",
+          "dim": "[dim_customer.acq_date (Calendar)]",
+          "index": 1,
+          "_id": "5e3b2181e745c21ebcba076c",
+          "level": "quarters"
+        },
+        {
+          "title": "Months in acq_date",
+          "table": "dim_customer",
+          "column": "acq_date",
+          "datatype": "datetime",
+          "dim": "[dim_customer.acq_date (Calendar)]",
+          "index": 2,
+          "_id": "5e3b21859952120e9c4849bc",
+          "level": "months"
+        },
+        {
+          "title": "Days in acq_date",
+          "table": "dim_customer",
+          "column": "acq_date",
+          "datatype": "datetime",
+          "dim": "[dim_customer.acq_date (Calendar)]",
+          "index": 3,
+          "_id": "5e3b21929952120e9c4849be",
+          "level": "days"
+        }
+      ],
+      "cubeId": "5ccc5c3e11fb9c1d682f00a0",
+      "alwaysIncluded": true,
+      "serverAddress": "ct-query-01.prod.sisense.com",
+      "elasticubeTitle": "SaaS Customer Churn"
+    },
+    {
+      "_id": "5e3b21b79952120e9c4849d9",
+      "title": "Region -> Last Activity Date",
+      "levels": [
+        {
+          "title": "Region",
+          "table": "dim_customer",
+          "column": "region",
+          "datatype": "text",
+          "dim": "[dim_customer.region]",
+          "index": 0,
+          "_id": "5e3b21b79952120e9c4849d8"
+        },
+        {
+          "title": "Quarters in last_activity_date",
+          "table": "dim_customer",
+          "column": "last_activity_date",
+          "datatype": "datetime",
+          "dim": "[dim_customer.last_activity_date (Calendar)]",
+          "index": 1,
+          "_id": "5e3b21be9952120e9c4849db",
+          "level": "quarters"
+        },
+        {
+          "title": "Months in last_activity_date",
+          "table": "dim_customer",
+          "column": "last_activity_date",
+          "datatype": "datetime",
+          "dim": "[dim_customer.last_activity_date (Calendar)]",
+          "index": 2,
+          "_id": "5e3b21c69952120e9c4849dd",
+          "level": "months"
+        },
+        {
+          "title": "Days in last_activity_date",
+          "table": "dim_customer",
+          "column": "last_activity_date",
+          "datatype": "datetime",
+          "dim": "[dim_customer.last_activity_date (Calendar)]",
+          "index": 3,
+          "_id": "5e3b21ca9952120e9c4849df",
+          "level": "days"
+        }
+      ],
+      "cubeId": "5ccc5c3e11fb9c1d682f00a0",
+      "alwaysIncluded": true,
+      "serverAddress": "ct-query-01.prod.sisense.com",
+      "elasticubeTitle": "SaaS Customer Churn"
+    }
+  ],
+  "previewLayout": [],
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "dim_date",
+        "column": "date",
+        "dim": "[dim_date.date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Years in date",
+        "level": "years",
+        "collapsed": true,
+        "datasource": {
+          "title": "SaaS Customer Churn",
+          "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+          "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+          "address": "ct-query-01.prod.sisense.com",
+          "database": "aSaaSIAAaCustomerIAAaChurn"
+        },
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "userMultiSelect": true,
+          "members": []
+        }
+      },
+      "instanceid": "D0F26-F69D-E9",
+      "isCascading": false,
+      "disabled": true
+    },
+    {
+      "jaql": {
+        "table": "dim_date",
+        "column": "date",
+        "dim": "[dim_date.date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Months in date",
+        "level": "months",
+        "collapsed": true,
+        "datasource": {
+          "title": "SaaS Customer Churn",
+          "fullname": "ct-query-01.prod.sisense.com/SaaS Customer Churn",
+          "id": "aCTLQAaQUERYLQAa01LgAaPRODLgAaSISENSELgAaCOM_aSAASIAAaCUSTOMERIAAaCHURN",
+          "address": "ct-query-01.prod.sisense.com",
+          "database": "aSaaSIAAaCustomerIAAaChurn"
+        },
+        "filter": {
+          "last": {
+            "count": 1000,
+            "offset": 0
+          },
+          "custom": true
+        }
+      },
+      "instanceid": "BB2BD-B51C-F2",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "lastPublish": "2020-05-21T08:05:10.375Z"
+}
