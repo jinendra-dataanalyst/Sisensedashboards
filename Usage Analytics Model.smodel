@@ -1,0 +1,588 @@
+{
+    "title": "Usage Analytics Model",
+    "type": "extract",
+    "relations": [
+        {
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "8b76e665-6204-48c2-ae01-9a33f20883f0",
+                    "table": "0aec0417-ad7f-408a-95dd-e4336d9da570",
+                    "column": "8b4bd052-1e37-420b-8b16-92474bbcb29e"
+                },
+                {
+                    "dataset": "07ec2e0b-e91f-4470-9e5f-f08d2be9f97e",
+                    "table": "e2b00d7e-b8fb-4809-9b4c-1369e3de5e78",
+                    "column": "ba246c1e-0c09-4b06-b9be-e14940fd3fe0"
+                }
+            ]
+        },
+        {
+            "type": null,
+            "columns": [
+                {
+                    "dataset": "8a0e0fa5-5940-49a5-af41-052d2d392e6b",
+                    "table": "88e341d3-afdc-4e98-a9c5-19cf6636f3d0",
+                    "column": "b9f7a860-9932-4b15-9abe-ff529f28ec9a"
+                },
+                {
+                    "dataset": "8b76e665-6204-48c2-ae01-9a33f20883f0",
+                    "table": "0aec0417-ad7f-408a-95dd-e4336d9da570",
+                    "column": "3d9c3fa8-66eb-4f25-b8ae-68ad4fa0028b"
+                }
+            ]
+        }
+    ],
+    "datasets": [
+        {
+            "oid": "fa94d21f-394c-4a78-9c37-bba2c6d2576d",
+            "fullname": "CSV:75d84285-59bf-4d23-a923-a2109e28ff02",
+            "type": "extract",
+            "name": "75d84285-59bf-4d23-a923-a2109e28ff02",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "3b94ca02-73c7-44d0-a443-a1b086d0a7ed",
+                        "id": "usage.csv",
+                        "name": "usage",
+                        "type": "base",
+                        "expression": null,
+                        "columns": [
+                            {
+                                "oid": "4ffb9be5-14bc-49dd-b3a7-d5b40e1b6b1c",
+                                "id": "trackingId",
+                                "name": "trackingId",
+                                "type": 18,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "9fd8f46f-3612-4de4-bc92-8ea02dd1a166",
+                                "id": "timeStamp",
+                                "name": "timeStamp",
+                                "type": 4,
+                                "size": 8,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "020da717-9acc-46fa-84c6-24aaaa9d9442",
+                                "id": "userId",
+                                "name": "userId",
+                                "type": 18,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "6e85601a-e781-4f7a-a618-98a13b4319cf",
+                                "id": "email",
+                                "name": "email",
+                                "type": 18,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "6ea51caf-f362-45df-a341-2b180ff8af52",
+                                "id": "userRole",
+                                "name": "userRole",
+                                "type": 18,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "6a54ca8f-2e4c-4c54-8aae-91344b8a9638",
+                                "id": "emailDomain",
+                                "name": "emailDomain",
+                                "type": 18,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "fecf394f-aba1-4db9-8a61-5160faf85054",
+                                "id": "userGroups",
+                                "name": "userGroups",
+                                "type": 18,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "b5005c94-2f51-4db8-868a-3b71006b3916",
+                                "id": "dashboardTitle",
+                                "name": "dashboardTitle",
+                                "type": 18,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "288225f6-88cf-48e5-ba29-06eb1311b872",
+                                "id": "dashboardId",
+                                "name": "dashboardId",
+                                "type": 18,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "63ec2ac2-c180-4ab6-ac78-a8566616ccb3",
+                                "id": "dashboardPath",
+                                "name": "dashboardPath",
+                                "type": 18,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "0dfd096a-59cd-4111-b49f-97eb6f8e9bff",
+                                "id": "action",
+                                "name": "action",
+                                "type": 18,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "974d6be2-7231-4b95-a5f3-e97782bf17c0",
+                                "id": "loadTime",
+                                "name": "loadTime",
+                                "type": 18,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "33249817-7365-4b07-970a-ed68915306ef",
+                                "id": "category",
+                                "name": "category",
+                                "type": 18,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "1a2f0718-3da5-486a-92e8-781aa556938b",
+                                "id": "str1",
+                                "name": "str1",
+                                "type": 18,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "e41b46b5-f1ca-49ce-8ad0-f52ee1e4116f",
+                                "id": "str2",
+                                "name": "str2",
+                                "type": 18,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "7be71832-d298-4203-a690-727abd583402",
+                                "id": "int1",
+                                "name": "int1",
+                                "type": 18,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "63aa2132-9356-47d5-9301-1431534dde0f",
+                                "id": "int2",
+                                "name": "int2",
+                                "type": 18,
+                                "size": 50,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "8310f727-9071-4833-a489-971a53f27306",
+                        "configOptions": {
+                            "culture": "en-US",
+                            "delimiter": ",",
+                            "hasHeader": true,
+                            "excludeIfBegins": "",
+                            "excludeIfContains": "",
+                            "stringQuote": "'",
+                            "ignoreFirstRows": ""
+                        },
+                        "description": null,
+                        "tags": null
+                    }
+                ]
+            },
+            "connection": {
+                "id": "5eabaf10043f6c32001e95bb",
+                "provider": "CSV",
+                "parameters": "0uJay0RlWn75SYw5xVdoLTxWJCVQJU4dG3OtdsAjkT5kj2VneQzr1/hioH9kH0yca/bgbIxhtcB2vFmvYAcu2d4jhpamQJBRPZ9ev+hI5qY=",
+                "schema": "C:\\ProgramData\\Sisense\\usage\\usage.csv",
+                "fileName": null,
+                "timeout": 300,
+                "autoRefresh": null,
+                "refreshRate": null,
+                "resultLimit": null,
+                "protectedParameters": [],
+                "uiParams": {},
+                "globalTableConfigOptions": null
+            }
+        },
+        {
+            "oid": "07ec2e0b-e91f-4470-9e5f-f08d2be9f97e",
+            "fullname": "0e80eda3-eb14-4e34-9213-129e9ce473e8",
+            "type": "custom",
+            "name": "0e80eda3-eb14-4e34-9213-129e9ce473e8",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "e2b00d7e-b8fb-4809-9b4c-1369e3de5e78",
+                        "id": "DimDashboards",
+                        "name": "DimDashboards",
+                        "type": "custom",
+                        "expression": {
+                            "oid": "c6cd729a-7b3f-4a7b-a3e9-6f56b71faeba",
+                            "expression": "SELECT distinct o.DashboardID AS [Dashboard ID],\n                o.dashboardPath AS [Dashboard Path],\n                CASE WHEN StrParts(o.dashboardPath,'/',1) like '' THEN 'null'\n                ELSE StrParts(o.dashboardPath,'/',1) END  AS [Dashboard Folder],\n                o.dashboardTitle AS [Dashboard Name]\n                FROM [usage] o\n                WHERE o.[category] = 'Analytics'"
+                        },
+                        "columns": [
+                            {
+                                "oid": "ba246c1e-0c09-4b06-b9be-e14940fd3fe0",
+                                "id": "Dashboard ID",
+                                "name": "Dashboard ID",
+                                "type": 18,
+                                "size": 65536,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "0cc42cc9-6c20-47f4-a18b-bfc0ce38a77a",
+                                "id": "Dashboard Path",
+                                "name": "Dashboard Path",
+                                "type": 18,
+                                "size": 65536,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "1f283e21-512e-4967-8975-28a5ee4607e6",
+                                "id": "Dashboard Folder",
+                                "name": "Dashboard Folder",
+                                "type": 18,
+                                "size": 65536,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "c61bdde4-f67c-477b-afb2-120b620661e0",
+                                "id": "Dashboard Name",
+                                "name": "Dashboard Name",
+                                "type": 18,
+                                "size": 65536,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "82bf9b0a-36d8-431d-ace7-ab691f240334",
+                        "configOptions": {},
+                        "description": null,
+                        "tags": null
+                    }
+                ]
+            },
+            "connection": null
+        },
+        {
+            "oid": "8b76e665-6204-48c2-ae01-9a33f20883f0",
+            "fullname": "755b1e42-1401-4b2c-8d83-9b4608c8fe0a",
+            "type": "custom",
+            "name": "755b1e42-1401-4b2c-8d83-9b4608c8fe0a",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "0aec0417-ad7f-408a-95dd-e4336d9da570",
+                        "id": "FactActions",
+                        "name": "FactActions",
+                        "type": "custom",
+                        "expression": {
+                            "oid": "b5e66a10-4ad7-4784-81c6-dc161c93de48",
+                            "expression": "SELECT o.trackingId AS [ActionID],o.timeStamp AS Date,o.[userId]\n                     AS [User ID],o.[dashboardId]AS [Dashboard ID],tofloat(o.[loadTime]) AS \n                     [Load Time],o.Action AS Action, o.category AS Category\nFROM [usage] o\n\n"
+                        },
+                        "columns": [
+                            {
+                                "oid": "ecc0eb72-169a-4e7b-ad1a-77f946bdb68b",
+                                "id": "ActionID",
+                                "name": "ActionID",
+                                "type": 18,
+                                "size": 65536,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "ce40c3e7-737d-4bff-a5ad-28f5a5c9f7ed",
+                                "id": "Date",
+                                "name": "Date",
+                                "type": 19,
+                                "size": 0,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "3d9c3fa8-66eb-4f25-b8ae-68ad4fa0028b",
+                                "id": "User ID",
+                                "name": "User ID",
+                                "type": 18,
+                                "size": 65536,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "8b4bd052-1e37-420b-8b16-92474bbcb29e",
+                                "id": "Dashboard ID",
+                                "name": "Dashboard ID",
+                                "type": 18,
+                                "size": 65536,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "b074fd9a-ccb7-4c56-90b8-a9646b1f4dc5",
+                                "id": "Load Time",
+                                "name": "Load Time",
+                                "type": 13,
+                                "size": 0,
+                                "precision": 16,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": false,
+                                "description": null
+                            },
+                            {
+                                "oid": "d3875742-661e-4be7-a118-8137694ec443",
+                                "id": "Action",
+                                "name": "Action",
+                                "type": 18,
+                                "size": 65536,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "3194c675-1930-44b9-9371-9edba59196e1",
+                                "id": "Category",
+                                "name": "Category",
+                                "type": 18,
+                                "size": 65536,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "86ed7577-98ea-4eb1-b263-bae665f1617f",
+                        "configOptions": {},
+                        "description": null,
+                        "tags": null
+                    }
+                ]
+            },
+            "connection": null
+        },
+        {
+            "oid": "8a0e0fa5-5940-49a5-af41-052d2d392e6b",
+            "fullname": "62b8f3a3-3c22-40ee-861d-e537cac9357d",
+            "type": "custom",
+            "name": "62b8f3a3-3c22-40ee-861d-e537cac9357d",
+            "modelingTransformations": [],
+            "schema": {
+                "tables": [
+                    {
+                        "oid": "88e341d3-afdc-4e98-a9c5-19cf6636f3d0",
+                        "id": "DimUsers",
+                        "name": "DimUsers",
+                        "type": "custom",
+                        "expression": {
+                            "oid": "8c7cf82a-667e-4fc1-a5d7-b9ffa4972472",
+                            "expression": "SELECT [userId] AS [User ID],[User Name], Role, domain, CASE WHEN\n                     IsNullOrEmpty([User Group])=TRUE then 'No Group' ELSE [User Group] END \n                     AS[User Group]  \nfrom\n(SELECT o.[userId], o.[email] AS [User Name],\n                     o.userRole AS Role, o.emailDomain AS Domain, strparts(o.userGroups,';',1) AS \n                     [User Group]\nFROM [usage] o\nUNION\n\n                     SELECT o.[userId], o.[email] AS [User Name],o.userRole  AS Role, o.emailDomain \n                     AS Domain, strparts(o.userGroups,';',2) AS [User Group]\nFROM [usage] o\nWHERE \n                     strparts(o.userGroups,';',2) !=''\nUNION\nSELECT o.[userId], o.[email] AS \n                     [User Name],o.userRole  AS Role, o.emailDomain AS Domain, \n                     strparts(o.userGroups,';',3) AS [User Group]\nFROM [usage] o\nWHERE \n                     strparts(o.userGroups,';',3) !=''\n) a "
+                        },
+                        "columns": [
+                            {
+                                "oid": "b9f7a860-9932-4b15-9abe-ff529f28ec9a",
+                                "id": "User ID",
+                                "name": "User ID",
+                                "type": 18,
+                                "size": 65536,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "6b1f6647-24d6-4a3e-89bc-6a6e60cd83fe",
+                                "id": "User Name",
+                                "name": "User Name",
+                                "type": 18,
+                                "size": 65536,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "a5e8fa5a-e535-4f02-972d-579980bc40e7",
+                                "id": "Role",
+                                "name": "Role",
+                                "type": 18,
+                                "size": 65536,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "b536c9ac-8743-4e64-b168-3904503694cd",
+                                "id": "Domain",
+                                "name": "Domain",
+                                "type": 18,
+                                "size": 65536,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            },
+                            {
+                                "oid": "e09b1360-0bbc-4a26-a906-9c3f3b7df3cd",
+                                "id": "User Group",
+                                "name": "User Group",
+                                "type": 18,
+                                "size": 65536,
+                                "precision": 0,
+                                "scale": 0,
+                                "hidden": false,
+                                "indexed": true,
+                                "description": null
+                            }
+                        ],
+                        "buildBehavior": {
+                            "type": "sync",
+                            "accumulativeConfig": null
+                        },
+                        "tupleTransformations": [],
+                        "hidden": false,
+                        "vTag": "6daad657-8b79-47fb-a2e8-9e85e18e5343",
+                        "configOptions": {},
+                        "description": null,
+                        "tags": null
+                    }
+                ]
+            },
+            "connection": null
+        }
+    ]
+}
